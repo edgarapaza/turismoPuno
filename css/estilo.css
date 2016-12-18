@@ -1,0 +1,43 @@
+/*
+color1 = #E1233F; Rojo
+color2 = #0094F4; Celeste
+color2 = #0070B8; Azul
+color3 = #FDCD21; Rojo
+color4 = #219F79; Verde
+color5 = #FEEBA6; Amarillo suave
+*/
+
+body{
+	background-image: url("../img/Background.jpg");
+}
+
+.texto-boton{
+  color: #0070B8;
+  background-color: #FEEBA6;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+.inferior{
+	color: #FFF;
+	background: #0070B8;
+	opacity: 0.8;
+	position:absolute; /*El div será ubicado con relación a la pantalla*/
+	left:10px; /*A la derecha deje un espacio de 0px*/
+	right:10px; /*A la izquierda deje un espacio de 0px*/
+	bottom:10px; /*Abajo deje un espacio de 0px*/
+	height:320px; /*alto del div*/
+	z-index:0;
+ }
+
+ .logo{
+ 	color: white;
+ 	background-color: #219F79;
+ }
+
+ .titulo{
+ 	background-color: #0070B8;
+ 	padding: 10px 10px;
+ }
